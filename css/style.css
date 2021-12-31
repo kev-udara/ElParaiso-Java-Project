@@ -13494,3 +13494,68 @@ textarea.form-control {
 		z-index: 10001;
 	}
 }
+
+.foods-section {
+	background: url("/images/food.jpg") no-repeat left;
+	background-size: 55%;
+	background-color: #fff;
+	overflow: hidden;
+	padding: 100px 0;
+}
+
+.inner-container {
+	width: 55%;
+	float: right;
+	background-color: #eeeff1;
+	padding: 150px;
+	box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.2);
+}
+
+.inner-container h1 {
+	margin-bottom: 30px;
+	font-size: 40px;
+	font-weight: 700;
+	color: var(--text-color);
+}
+
+.foods-text {
+	font-size: 13px;
+	color: var(--text-color);
+	line-height: 30px;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+
+.variations {
+	display: flex;
+	justify-content: space-between;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+	.inner-container {
+		padding: 80px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.foods-section {
+		background-size: 100%;
+		padding: 100px 40px;
+	}
+
+	.inner-container {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.foods-section {
+		padding: 0;
+	}
+
+	.inner-container {
+		padding: 60px;
+	}
+}
